@@ -3,7 +3,8 @@ document.getElementById('certificate-form').addEventListener('submit', function(
 	
 	const certificateNumber = document.getElementById('certificate-number').value;
 	const validCertificates = {
-		'9ef21f57-1283-4321-b1ed-b38acd48ba5f': 'certificates/9ef21f57-1283-4321-b1ed-b38acd48ba5f.pdf'
+		'9ef21f57-1283-4321-b1ed-b38acd48ba5f': 'certificates/9ef21f57-1283-4321-b1ed-b38acd48ba5f.pdf',
+		'47387454841': 'certificates/9ef21f57-1283-4321-b1ed-b38acd48ba5f.pdf'
 	}; // Example valid certificates with corresponding PDF paths
 	const resultDiv = document.getElementById('result');
 	
